@@ -1,0 +1,33 @@
+.quiz-course {
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    }
+.radio-buttons{
+    display:flex;
+    flex-direction:column; /*vertically stack each answer option*/
+    gap:10px; /*spacing between each answer option*/
+}
+
+radio-buttons input[type="radio"] {
+    margin-right: 15%; /* space between radio button & label*/
+}
+ .radio-buttons label{
+    display: inline-block;
+    vertical-align: middle; /* align label text with radio button*/
+ }
+ .radio-buttons div{
+    display: flex;
+    align-items: center; /* ensure label and radio buttons align vertically*/
+ }
+ .submit-button{
+    display:flex;
+    justify-content: center;
+    margin-top: 20px;
+ }
+ .submit-btn {
+    width:200px;
+    padding: 10px 20px ;
+    font-size: 16px;
+
+ }
